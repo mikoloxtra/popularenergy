@@ -1,7 +1,7 @@
 import { defineStackbitConfig } from '@stackbit/types'
 import { GitContentSource } from '@stackbit/cms-git'
-import { button } from '.stackbit/models/button'
-import { page } from '.stackbit/models/page'
+import { button } from '.stackbit/models/Button'
+import { page } from '.stackbit/models/Page'
 
 
 export default defineStackbitConfig({
@@ -10,7 +10,7 @@ export default defineStackbitConfig({
     new GitContentSource({
       rootPath: __dirname,
       contentDirs: ['content'],
-      models: [ button, page ],
+      models: [ Putton, Page ],
       assetsConfig: {
         referenceType: 'static',
         staticDir: 'static',
