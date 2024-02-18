@@ -11,7 +11,6 @@ const gitContentSource = new GitContentSource({
           type: "page",
           urlPath: "/{slug}",
           filePath: "content/pages/{slug}.md",
-          fields: [{ name: "title", type: "string", required: true }]
         }
       ],
     assetsConfig: {
