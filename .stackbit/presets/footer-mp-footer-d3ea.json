@@ -1,0 +1,148 @@
+{
+    "model": "Footer",
+    "presets": [
+        {
+            "label": "MP-Footer",
+            "thumbnail": "images/footer-mp-footer-d3ea.png",
+            "metadata": {
+                "categories": [
+                    "Main Product"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "colors": "colors-c",
+                "logo": {
+                    "url": "/images/PE Favicon - Copy.png",
+                    "altText": "altText of the image",
+                    "caption": "Caption of the image",
+                    "elementId": "",
+                    "styles": {
+                        "self": {
+                            "opacity": 100
+                        }
+                    },
+                    "$$type": "ImageBlock"
+                },
+                "title": "popular.energy",
+                "text": null,
+                "contacts": {
+                    "title": "Contact details",
+                    "phoneNumber": "08182400598",
+                    "phoneAltText": "Our phone",
+                    "email": "sales@popular.energy",
+                    "emailAltText": "Our email",
+                    "address": "3, Birrel Avenue Sabo Yaba Lagos",
+                    "addressAltText": "Our address",
+                    "elementId": null,
+                    "$$type": "ContactBlock"
+                },
+                "copyrightText": "Powered by [***POPULAR ENERGY***](https://popular.energy)\n\n",
+                "primaryLinks": [
+                    {
+                        "label": "Home",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null,
+                        "$$type": "Link"
+                    },
+                    {
+                        "label": "Products",
+                        "altText": "",
+                        "url": "/products",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null,
+                        "$$type": "Link"
+                    },
+                    {
+                        "label": "Contact",
+                        "altText": "",
+                        "url": "/contact",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null,
+                        "$$type": "Link"
+                    },
+                    {
+                        "label": "Blog",
+                        "altText": "",
+                        "url": "/blog",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null,
+                        "$$type": "Link"
+                    }
+                ],
+                "socialLinks": [
+                    {
+                        "label": "Facebook",
+                        "altText": "",
+                        "url": "https://www.facebook.com/popularenergyltd",
+                        "icon": "facebook",
+                        "style": "link",
+                        "elementId": "",
+                        "$$type": "Social"
+                    },
+                    {
+                        "label": "Twitter",
+                        "altText": "Twitter",
+                        "url": "https://www.twitter.com/popularenergyhq/",
+                        "icon": "twitter",
+                        "style": null,
+                        "elementId": null,
+                        "$$type": "Social"
+                    },
+                    {
+                        "label": "Instagram",
+                        "altText": "Instagram",
+                        "url": "https://www.instagram.com/popular_energy/",
+                        "icon": "instagram",
+                        "style": null,
+                        "elementId": null,
+                        "$$type": "Social"
+                    }
+                ],
+                "legalLinks": [
+                    {
+                        "label": "Privacy Policy",
+                        "altText": null,
+                        "url": "/",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null,
+                        "$$type": "Link"
+                    },
+                    {
+                        "label": "Terms & Conditions",
+                        "altText": null,
+                        "url": "/",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null,
+                        "$$type": "Link"
+                    }
+                ],
+                "styles": {
+                    "self": {
+                        "width": "narrow",
+                        "padding": [
+                            "pt-16",
+                            "pb-16",
+                            "pr-4",
+                            "pl-4"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

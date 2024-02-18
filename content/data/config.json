@@ -1,0 +1,146 @@
+{
+    "type": "Config",
+    "header": {
+        "headerVariant": "variant-c",
+        "primaryColors": "colors-b",
+        "secondaryColors": "colors-h",
+        "title": "Popular Energy",
+        "isTitleVisible": true,
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Home",
+                "url": "/",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Contact",
+                "url": "/contact",
+                "altText": "",
+                "elementId": "contact"
+            }
+        ],
+        "secondaryLinks": [],
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-5",
+                    "pb-5",
+                    "pr-4",
+                    "pl-4"
+                ]
+            }
+        },
+        "logo": {
+            "altText": "Popular Energy Logo",
+            "caption": "Popular Energy Logo",
+            "elementId": "main-logo",
+            "styles": {
+                "self": {
+                    "opacity": 100
+                }
+            },
+            "type": "ImageBlock"
+        }
+    },
+    "footer": {
+        "colors": "colors-c",
+        "logo": {
+            "altText": "altText of the image",
+            "caption": "Caption of the image",
+            "elementId": "",
+            "styles": {
+                "self": {
+                    "opacity": 100
+                }
+            },
+            "type": "ImageBlock",
+            "url": "/images/PE Favicon - Copy.png"
+        },
+        "title": "popular.energy",
+        "contacts": {
+            "title": "Contact details",
+            "phoneAltText": "Our phone",
+            "email": "Email : sales@popular.energy",
+            "emailAltText": "Our email",
+            "addressAltText": "Our address"
+        },
+        "copyrightText": "Powered by [**EDEN POWER** ](https://edenpower.ng/)\n",
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Home",
+                "url": "/",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Contact",
+                "url": "/contact",
+                "altText": ""
+            }
+        ],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "label": "Facebook",
+                "altText": "",
+                "url": "/",
+                "icon": "facebook",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Social",
+                "label": "Youtube",
+                "altText": "",
+                "url": "https://www.youtube.com/channel/UC3VIGYCU3rnADSuJ7tjHoJw",
+                "icon": "youtube",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Social",
+                "altText": "Twitter",
+                "label": "Twitter",
+                "url": "https://www.twitter.com/popularenergyhq/",
+                "icon": "twitter",
+                "style": "secondary"
+            },
+            {
+                "type": "Social",
+                "altText": "Instagram",
+                "label": "Instagram",
+                "url": "https://www.instagram.com/popular_energy/",
+                "icon": "instagram",
+                "style": "secondary"
+            }
+        ],
+        "legalLinks": [
+            {
+                "type": "Link",
+                "label": "Privacy Policy",
+                "url": "/"
+            },
+            {
+                "type": "Link",
+                "label": "Terms & Conditions",
+                "url": "/"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
+            }
+        }
+    },
+    "favicon": "/images/PE Favicon - Copy.png"
+}
