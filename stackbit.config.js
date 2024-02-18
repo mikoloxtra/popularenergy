@@ -1,7 +1,7 @@
 import { defineStackbitConfig } from '@stackbit/types'
 import { GitContentSource } from '@stackbit/cms-git'
-import { button } from '.stackbit/models/Button'
-import { page } from '.stackbit/models/Page'
+import { Button } from '.stackbit/models/Button'
+import { Page } from '.stackbit/models/Page'
 
 
 export default defineStackbitConfig({
