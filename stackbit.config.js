@@ -9,8 +9,8 @@ const gitContentSource = new GitContentSource({
         {
           name: "Page",
           type: "page",
-          urlPath: "/{slug}",
-          filePath: "content/pages/{slug}.md",
+          urlPath: "/index",
+          filePath: "content/pages/index.md",
         }
       ],
     assetsConfig: {
