@@ -5,7 +5,15 @@ import { allModels } from './.stackbit/models';
 const gitContentSource = new GitContentSource({
     rootPath: __dirname,
     contentDirs: ['content'],
-    models: Object.values(allModels),
+    models: [
+        {
+          name: "Page",
+          type: "page",
+          urlPath: "/{slug}",
+          filePath: "content/pages/{slug}.json",
+          fields: [{ name: "title", type: "string", required: true }]
+        }
+      ],
     assetsConfig: {
         referenceType: 'static',
         staticDir: 'public',
